@@ -50,7 +50,11 @@ public class GUIView extends JPanel {
 		this.gameFactory = factory;
 
 		// Set the background on the GameView
+<<<<<<< HEAD
 		this.gameView.setBackground(Color.CYAN);
+=======
+		this.gameView.setBackground(Color.lightGray);
+>>>>>>> dcfcc25311030ec423c4aca5441e4a0fbb117d3d
 
 		// Set the layout on myself
 		setLayout(new BorderLayout());
@@ -63,7 +67,11 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
+<<<<<<< HEAD
 		this.startGameButton = new JButton("Empezar");
+=======
+		this.startGameButton = new JButton("Let's Play");
+>>>>>>> dcfcc25311030ec423c4aca5441e4a0fbb117d3d
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
 
